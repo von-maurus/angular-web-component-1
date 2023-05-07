@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Summary
+In short, we have:
+
+- i) Added the Angular Elements library
+- ii) Created an Angular component and converted it to a web component
+- iii) Added bootstrapping and configured a separate build
+
+In the example above, we use a simple Angular component to demonstrate the whole process of creating a web component.
+
+
+## Investigations
+
+- When building for production, use this command instead of the DEPRECATED one `ng build --configuration production`.
+Seen in this thread [ng build --prod => Error: Unknown argument: prod](https://stackoverflow.com/questions/73156911/ng-build-prod-error-unknown-argument-prod)
+
+
+
